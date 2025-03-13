@@ -1,0 +1,67 @@
+.header {
+    background-color: #eee;
+    padding: 10px;
+    text-align: center;
+    color: green;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 20px;
+  }
+  
+  .card {
+    width: 100%;
+    background: white;
+    text-align: center;
+    overflow: hidden;
+  }
+  .card-header {
+    background: url("https://sb.kaleidousercontent.com/67418/1920x1100/2ed9107761/bg.png")
+      no-repeat center/cover;
+    padding: 20px;
+    border-radius: 15px;
+    position: relative;
+    padding-bottom: 0px;
+  }
+  .profile-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  .mic-icon {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: #27c36f;
+    padding: 10px;
+    border-radius: 50%;
+  }
+  .mic-icon img {
+    width: 20px;
+    height: 20px;
+  }
+  .card-body {
+    padding: 15px;
+  }
+  .name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .designation {
+    font-size: 14px;
+    color: gray;
+    margin-top: 5px;
+  }
+  
+  .company {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .company img {
+    width: auto;
+    height: 50px;
+    margin-top: 10px;
+    filter: brightness(0);
+  }
+  
